@@ -5,7 +5,7 @@ def numeroRandom():
         dado=random.randrange(1,10)
         print(f'Tirada número {i+1} = {dado}')
         if dado==5:
-            numeroCinco==True
+            numeroCinco=True
     if numeroCinco:
         print('Ha sacado por lo menos un Cinco =)')
     else:
